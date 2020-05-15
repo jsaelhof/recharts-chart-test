@@ -16,6 +16,10 @@ const App = () => {
 
   return (
     <div className={classes.page}>
+      <h3>Recharts</h3>
+      <a href="https://recharts.org/en-US/" target="_blank">
+        https://recharts.org/en-US/
+      </a>
       <ZoomDomain />
       <CyclesChart />
       <ScrubCharts />
