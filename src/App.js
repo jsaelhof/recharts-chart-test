@@ -17,9 +17,24 @@ const App = () => {
   return (
     <div className={classes.page}>
       <h3>Recharts</h3>
-      <a href="https://recharts.org/en-US/" target="_blank">
-        https://recharts.org/en-US/
-      </a>
+      <div>
+        <a href="https://recharts.org/en-US/" target="_blank">
+          https://recharts.org/en-US/
+        </a>
+      </div>
+      <div>
+        <a href="https://github.com/recharts/recharts" target="_blank">
+          Recharts Github
+        </a>
+      </div>
+      <div>
+        <a
+          href="https://github.com/jsaelhof/recharts-chart-test"
+          target="_blank"
+        >
+          Github for this test
+        </a>
+      </div>
       <ZoomDomain />
       <CyclesChart />
       <ScrubCharts />
